@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/view/CSS/Header.css">
+    <link rel="stylesheet" href="/view/CSS/Gallery.css">
+    <title>Hostel Management Information System</title>
+</head>
+
+
+<body>
+    <header>
+        <img class="img-logo" src="/view/HTML/Img/logo.png">
+        <h1>CEM COLLEGE OF ENGINEERING AND TECHNOLOGY, INDIA.</h1>
+        <h3>WELCOME TO CEM HOSTEL WEB-PORTAL.</h3>
+        <h5>THIS PORTAL PROVIDES COMPLETE INFORMATION ABOUT THE CEM COLLEGE'S HOSTEL FACILITIES.</h5>
+    </header>
+    <div>
+        <ul class="bar-ul">
+            <li class="bar-li"><button onclick="location.href='HomePage.html';" class="listButton">HOME</button></li>
+            <li class="bar-li"><button style="background-color: rgb(34, 32, 54); color: white;" onclick="location.href='#';" class="listButton">GALLERY</button></li>
+            <li class="bar-li"><button onclick="location.href='AluminiReview.html';" class="listButton">ALUMNI REVIEW</button></li>
+            <li class="bar-li"><button onclick="location.href='FeesStructure.html';" class="listButton">FEES STRUCTURE</button></li>
+            <li class="dropdown"><button class="listButton">REGISTERATION PROCESS</button>
+                <ul class="dropdown-content">
+                    <li class="dropdown-content-list"><button onclick="location.href='OnlineRegisteration.html';" class="dropdownButton">ONLINE REGISTERATION</button></li>
+                    <li class="dropdown-content-list"><button onclick="location.href='OfflineRegisteration.html';" class="dropdownButton">OFFLINE REGISTERATION</button></li>
+                </ul>
+            </li>
+            <li class="bar-li"><button onclick="location.href='NoticeBoard.html';" class="listButton">NOTICE BOARD</button></li>
+            <li class="dropdown"><button class="listButton">LOGIN</button>
+                <ul class="dropdown-content">
+                    <li class="dropdown-content-list"><button onclick="location.href='StudentLogin.html';" class="dropdownButton">STUDENT LOGIN</button></li>
+                    <li class="dropdown-content-list"><button onclick="location.href='AdminLogin.html';" class="dropdownButton">ADMIN LOGIN</button></li>
+                </ul>
+            </li>
+            <li class="bar-li"><button onclick="location.href='Feedback.html';" class="listButton">FEEDBACK</button></li>
+        </ul>
+    </div>
+    <div class="img-gallery">
+        <h2>CEM HOSTEL IMAGE GALLERY</h2>
+        <div class="gallery">
+            <a target="_blank" href="/view/HTML/Img/Main-Hostel.jpg">
+                <img src="/view/HTML/Img/Main-Hostel.jpg" alt="Hostel Exterior">
+            </a>
+            <div class="desc">Hostel Exterior</div>
+        </div>
+
+        <div class="gallery">
+            <a target="_blank" href="/view/HTML/Img/room.jpg">
+                <img src="/view/HTML/Img/room.jpg" alt="Bed room-1">
+            </a>
+            <div class="desc">Bed room-1</div>
+        </div>
+
+        <div class="gallery">
+            <a target="_blank" href="/view/HTML/Img/R.jpeg">
+                <img src="/view/HTML/Img/R.jpeg" alt="Bed room-2">
+            </a>
+            <div class="desc">Bed room-2</div>
+        </div>
+
+        <div class="gallery">
+            <a target="_blank" href="/view/HTML/Img/restroom.jpg">
+                <img src="/view/HTML/Img/restroom.jpg" alt="Restroom">
+            </a>
+            <div class="desc">Restroom</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="/view/HTML/Img/cafeteria.jpg">
+                <img src="/view/HTML/Img/cafeteria.jpg" alt="Meeting hall">
+            </a>
+            <div class="desc">Meeting hall</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="/view/HTML/Img/OIP.jpeg">
+                <img src="/view/HTML/Img/OIP.jpeg" alt="Cafeteria">
+            </a>
+            <div class="desc">Cafeteria</div>
+        </div>
+    </div>
+    <script src="/view/JavaScript/Feedback.js"></script>
+</body>
+
+</html>

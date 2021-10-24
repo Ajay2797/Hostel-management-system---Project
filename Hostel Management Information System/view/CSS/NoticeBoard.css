@@ -1,0 +1,9 @@
+.arti {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: solid;
+    margin-top: 30px;
+    margin-right: 20px;
+    height: 400px;
+    width: 100%;
+    overflow: auto;
+}

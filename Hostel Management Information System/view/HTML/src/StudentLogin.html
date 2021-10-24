@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/view/CSS/Header.css">
+    <link rel="stylesheet" href="/view/CSS/StudentLogin.css">
+    <title>Hostel Management Information System</title>
+</head>
+
+
+<body>
+    <header>
+        <img class="img-logo" src="/view/HTML/Img/logo.png">
+        <h1>CEM COLLEGE OF ENGINEERING AND TECHNOLOGY, INDIA.</h1>
+        <h3>WELCOME TO CEM HOSTEL WEB-PORTAL.</h3>
+        <h5>THIS PORTAL PROVIDES COMPLETE INFORMATION ABOUT THE CEM COLLEGE'S HOSTEL FACILITIES.</h5>
+    </header>
+    <div>
+        <ul class="bar-ul">
+            <li class="bar-li"><button onclick="location.href='HomePage.html';" class="listButton">HOME</button></li>
+            <li class="bar-li"><button onclick="location.href='Gallery.html';" class="listButton">GALLERY</button></li>
+            <li class="bar-li"><button onclick="location.href='AluminiReview.html';" class="listButton">ALUMNI REVIEW</button></li>
+            <li class="bar-li"><button onclick="location.href='FeesStructure.html';" class="listButton">FEES STRUCTURE</button></li>
+            <li class="dropdown"><button class="listButton">REGISTERATION PROCESS</button>
+                <ul class="dropdown-content">
+                    <li class="dropdown-content-list"><button onclick="location.href='OnlineRegisteration.html';" class="dropdownButton">ONLINE REGISTERATION</button></li>
+                    <li class="dropdown-content-list"><button onclick="location.href='OfflineRegisteration.html';" class="dropdownButton">OFFLINE REGISTERATION</button></li>
+                </ul>
+            </li>
+            <li class="bar-li"><button onclick="location.href='NoticeBoard.html';" class="listButton">NOTICE BOARD</button></li>
+            <li class="dropdown"><button style="background-color: rgb(34, 32, 54); color: white;" class="listButton">LOGIN</button>
+                <ul class="dropdown-content">
+                    <li class="dropdown-content-list"><button style="background-color: rgb(34, 32, 54); color: white;" onclick="location.href='#';" class="dropdownButton">STUDENT LOGIN</button></li>
+                    <li class="dropdown-content-list"><button onclick="location.href='AdminLogin.html';" class="dropdownButton">ADMIN LOGIN</button></li>
+                </ul>
+            </li>
+            <li class="bar-li"><button onclick="location.href='Feedback.html';" class="listButton">FEEDBACK</button></li>
+        </ul>
+    </div>
+    <form>
+        <div class="container">
+            <h2 style="text-align: center;">STUDENT LOGIN</h2>
+            <hr>
+
+            <label for="name"><b>Full Name : </b></label>
+            <input id="sName" type="text" placeholder="Enter Full Name" name="name" id="name" required>
+
+            <label for="password"><b>Password : </b></label>
+            <input id="password" type="password" placeholder="Enter Password" name="password" id="password" required>
+
+            <hr>
+            <button onclick="location.href='#';onLogin()" class="registerbtn">LOGIN</button>
+        </div>
+    </form>
+    <script src="/view/JavaScript/StudentLogin.js"></script>
+</body>
+
+</html>

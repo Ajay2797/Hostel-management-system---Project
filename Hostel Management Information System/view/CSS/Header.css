@@ -1,0 +1,84 @@
+body {
+    margin: 40px;
+    background-color: rgb(217, 217, 218);
+}
+
+.img-logo {
+    margin-left: 20px;
+    margin-top: 5px;
+    float: left;
+    height: 150px;
+    width: 150px;
+}
+
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    border: solid;
+    border-radius: 40px;
+    text-decoration: underline;
+}
+
+.bar-ul {
+    margin-top: 30px;
+    border-radius: 40px;
+    overflow: hidden;
+    background-color: rgb(51, 81, 141);
+}
+
+.bar-li {
+    float: left;
+    display: block;
+}
+
+.listButton {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 0px;
+    background-color: rgb(51, 81, 141);
+    color: white;
+    cursor: pointer;
+    height: 60px;
+    width: 165px;
+}
+
+.listButton:hover {
+    background-color: rgb(34, 32, 54);
+    color: rgb(255, 255, 255);
+}
+
+.dropdown {
+    float: left;
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 140px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 12px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content-list {
+    display: block;
+}
+
+.dropdownButton {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    background-color: rgb(51, 81, 141);
+    color: white;
+    cursor: pointer;
+    height: 40px;
+    width: 140px;
+}
+
+.dropdownButton:hover {
+    background-color: rgb(34, 32, 54);
+    color: rgb(255, 255, 255);
+}
